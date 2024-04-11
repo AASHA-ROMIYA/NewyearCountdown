@@ -1,0 +1,64 @@
+*{
+ box-sizing: border-box;
+ padding: 0;
+  margin:0;
+}
+body{
+  
+ /* left:0;
+ top:0; */
+ height:100vh;
+ width:100vw;
+ /* position:absolute; */
+ display:flex;
+
+ background-image:url("../IMAGES/michael-fousert-1XgbEO7siqg-unsplash.jpg");
+ flex-direction: column;
+ object-fit: cover;
+   align-items: center; 
+   align-content: center;
+   justify-content: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   color:white;
+
+  
+}
+.counter{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    margin: 50px;
+
+}
+p{
+    font-size: 30px;
+    margin: 20px;
+}
+.newyear{
+    font-family: 'Inspiration',cursive;
+    font-size: 50px;
+    margin: 10px;
+}
+.day{
+    margin-left: 10px;
+    text-align: center;
+}
+.hour{
+    text-align: center;
+    margin-left: 10px;
+}
+.minute{
+    margin-left: 10px;
+    text-align: center;
+}
+.seconds{
+    margin-left: 10px;
+    text-align: center;
+}
+small{
+    align-items: center;
+}
